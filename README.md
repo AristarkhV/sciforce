@@ -11,3 +11,6 @@ App read both (model - Stock) and calculate the total amount for each referenced
 Sample test input data:
 https://sciforce.solutions/downloads/sciforce-java-test1.json
 https://sciforce.solutions/downloads/sciforce-java-test2.json
+
+Technologies - Java 8, Maven, Hibernate, Spring Boot, Spring Data API
+
