@@ -7,7 +7,7 @@ import com.sciforce.test.sciforce.repository.StockRepository;
 import com.sciforce.test.sciforce.service.ProductAmountStockService;
 import com.sciforce.test.sciforce.service.ProductService;
 import com.sciforce.test.sciforce.service.StockService;
-import dto.ProductAmountDTO;
+import com.sciforce.test.sciforce.dto.ProductAmountDTO;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,6 +1,6 @@
 package com.sciforce.test.sciforce.service;
 
-import dto.ProductAmountDTO;
+import com.sciforce.test.sciforce.dto.ProductAmountDTO;
 
 import java.util.List;
 

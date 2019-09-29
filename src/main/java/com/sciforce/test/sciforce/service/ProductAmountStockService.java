@@ -1,7 +1,7 @@
 package com.sciforce.test.sciforce.service;
 
 import com.sciforce.test.sciforce.model.ProductAmountStock;
-import dto.ProductAmountDTO;
+import com.sciforce.test.sciforce.dto.ProductAmountDTO;
 
 import java.util.List;
 

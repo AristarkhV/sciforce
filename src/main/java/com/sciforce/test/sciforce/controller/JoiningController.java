@@ -4,7 +4,7 @@ import com.sciforce.test.sciforce.service.ProductAmountStockService;
 import com.sciforce.test.sciforce.service.StockService;
 import com.sciforce.test.sciforce.utils.ReadJsonFromFileUtil;
 import com.sciforce.test.sciforce.utils.ReadJsonFromURLUtil;
-import dto.ProductAmountDTO;
+import com.sciforce.test.sciforce.dto.ProductAmountDTO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;

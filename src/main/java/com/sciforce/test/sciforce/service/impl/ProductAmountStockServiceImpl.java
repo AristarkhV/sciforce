@@ -5,7 +5,7 @@ import com.sciforce.test.sciforce.model.ProductAmountStock;
 import com.sciforce.test.sciforce.repository.ProductAmountStockRepository;
 import com.sciforce.test.sciforce.service.ProductAmountStockService;
 import com.sciforce.test.sciforce.service.ProductService;
-import dto.ProductAmountDTO;
+import com.sciforce.test.sciforce.dto.ProductAmountDTO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

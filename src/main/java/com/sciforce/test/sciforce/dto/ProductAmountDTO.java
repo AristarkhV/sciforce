@@ -1,4 +1,4 @@
-package dto;
+package com.sciforce.test.sciforce.dto;
 
 import java.util.Objects;
 

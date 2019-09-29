@@ -3,7 +3,7 @@ package com.sciforce.test.sciforce.utils;
 import com.fasterxml.jackson.core.JsonParseException;
 import com.fasterxml.jackson.databind.JsonMappingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import dto.ProductAmountDTO;
+import com.sciforce.test.sciforce.dto.ProductAmountDTO;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
