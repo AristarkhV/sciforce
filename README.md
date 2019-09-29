@@ -1,4 +1,4 @@
-# sciforce test task
+# Test task for SciForce
 
 The app implement `join` of two JSON data sources (model - ProductAmountDTO). 
 #1 hosted on the Internet and #2 hosted locally in some file (path=/resources/public/test2.json).
