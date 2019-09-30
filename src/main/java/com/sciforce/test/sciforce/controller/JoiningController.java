@@ -32,12 +32,10 @@ public class JoiningController {
         List<ProductAmountDTO> remoteProducts;
         List<ProductAmountDTO> localProducts;
 
-        ReadJsonFromURLUtil urlHandler = new ReadJsonFromURLUtil();
-        remoteProducts = urlHandler.getProductAmountDTOListFromURL(url);
+        remoteProducts = ReadJsonFromURLUtil.getProductAmountDTOListFromURL(url);
         stockService.createStock(remoteProducts, url);
 
-        ReadJsonFromFileUtil fileHandler = new ReadJsonFromFileUtil();
-        localProducts = fileHandler.getProductAmountDTOListFromFile(path);
+        localProducts = ReadJsonFromFileUtil.getProductAmountDTOListFromFile(path);
         stockService.createStock(localProducts, path);
 
         return productAmountStockService.getAllDTO();

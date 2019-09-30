@@ -13,13 +13,13 @@ import java.util.List;
 
 public class ReadJsonFromURLUtil {
 
-    private List<ProductAmountDTO> products = new ArrayList<>();
-    private final Logger logger = LoggerFactory.getLogger(ReadJsonFromURLUtil.class);
+    private static List<ProductAmountDTO> products = new ArrayList<>();
+    private static final Logger logger = LoggerFactory.getLogger(ReadJsonFromURLUtil.class);
 
     public ReadJsonFromURLUtil() {
     }
 
-    public List<ProductAmountDTO> getProductAmountDTOListFromURL(String url) {
+    public static List<ProductAmountDTO> getProductAmountDTOListFromURL(String url) {
         RestTemplate restTemplate = new RestTemplate();
         ResponseEntity<List<ProductAmountDTO>> response = restTemplate.exchange(url, HttpMethod.GET, null,
                                                           new ParameterizedTypeReference<List<ProductAmountDTO>>() {});

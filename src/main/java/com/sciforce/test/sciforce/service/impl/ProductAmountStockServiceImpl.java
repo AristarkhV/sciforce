@@ -20,8 +20,7 @@ public class ProductAmountStockServiceImpl implements ProductAmountStockService 
     private int currentAmount;
 
     @Autowired
-    public ProductAmountStockServiceImpl(ProductAmountStockRepository productRepository,
-                                         ProductService productService) {
+    public ProductAmountStockServiceImpl(ProductAmountStockRepository productRepository, ProductService productService) {
         this.productAmountRepository = productRepository;
         this.productService = productService;
     }

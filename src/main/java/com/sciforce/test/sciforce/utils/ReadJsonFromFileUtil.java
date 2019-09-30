@@ -16,13 +16,13 @@ import java.util.List;
 
 public class ReadJsonFromFileUtil {
 
-    private List<ProductAmountDTO> products = new ArrayList<>();
-    private final Logger logger = LoggerFactory.getLogger(ReadJsonFromFileUtil.class);
+    private static List<ProductAmountDTO> products = new ArrayList<>();
+    private static final Logger logger = LoggerFactory.getLogger(ReadJsonFromFileUtil.class);
 
     public ReadJsonFromFileUtil() {
     }
 
-    public List<ProductAmountDTO> getProductAmountDTOListFromFile(String path) {
+    public static List<ProductAmountDTO> getProductAmountDTOListFromFile(String path) {
         ObjectMapper mapper = new ObjectMapper();
         try {
             products = Arrays.asList(mapper.readValue(new FileReader(path), ProductAmountDTO[].class));
